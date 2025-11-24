@@ -1,18 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int startSumma = 100;
-        int summaP = 2500;
+        int startSum = 100;
+        int sumP = 2500;
         int bonus;
-        if (summaP > 1000) {
-            bonus = summaP / 100;
-            startSumma = startSumma + bonus + summaP;
-            System.out.println("Итоговый счет " +  startSumma + " рублей");
-            System.out.println("Бонусы " + bonus);
+        if (sumP > 1000) {
+            bonus = sumP / 100;
+            startSum = startSum + bonus + sumP;
         } else {
             bonus = 0;
-            startSumma = startSumma + summaP;
-            System.out.println("Итоговый счет" +  startSumma + " рублей");
-            System.out.println("Бонусы" + bonus);
+            startSum = startSum + sumP;
         }
+        System.out.println("Итоговый счет " +  startSum + " рублей");
+        System.out.println("Бонусы " + bonus);
     }
 }
