@@ -36,5 +36,4 @@ bin/
 /httpRequests/
 
 .idea/
-out/
 *.iml
